@@ -1,0 +1,18 @@
+pkgbase = unissh-appimage
+	pkgdesc = A cross-platform SSH client with end-to-end-encrypted vaults that sync through a server you host.
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://unissh.dev/
+	arch = x86_64
+	license = MIT
+	license = Apache-2.0
+	depends = zlib
+	depends = hicolor-icon-theme
+	depends = fuse2
+	noextract = unissh-appimage-0.3.0.AppImage
+	options = !strip
+	options = !debug
+	source_x86_64 = unissh-appimage-0.3.0.AppImage::https://github.com/goduni/unissh/releases/download/v0.3.0/UniSSH_0.3.0_amd64.AppImage
+	sha256sums_x86_64 = SKIP
+
+pkgname = unissh-appimage
