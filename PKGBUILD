@@ -1,7 +1,7 @@
 # Maintainer: BanHammer  <no@e.mail>
 
 pkgname="unissh-appimage"
-pkgver=0.6.1
+pkgver=0.7.0
 pkgrel=1
 pkgdesc="A cross-platform SSH client with end-to-end-encrypted vaults that sync through a server you host."
 arch=('x86_64')
